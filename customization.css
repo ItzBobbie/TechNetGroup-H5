@@ -91,6 +91,17 @@ a {
     right: 0; /**/
 }
 
+.sub_navigation {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    height: px;
+    position: relative; /**/
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
 .QuickInformationWidget {
     background-color: rgba(255, 255, 255, 0.2);
     display: flex;
@@ -127,6 +138,67 @@ a {
     margin-top: 5px;
     margin-left: 10px;
     margin-right: 15px;
+}
+
+.Combiner {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    justify-content: center;
+    margin-top: -627.5px;
+    margin-left: 1050px;
+}
+
+.Circle_Combiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    rotate: -90deg;
+    margin-left: 10px;
+}
+
+.Particle_TNG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: px;
+    margin-bottom: px;
+    margin-right: px;
+    margin-top: px;
+}
+
+.Particle_TNM {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: px;
+    margin-top: px;
+    margin-bottom: px;
+    margin-right: px;
+}
+
+.Particle_TNS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: px;
+    margin-top: px;
+    margin-right: px;
+    margin-bottom: px;
+}
+
+.Particle_TNV {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: px;
+    margin-top: px;
+    margin-right: px;
+    margin-bottom: px;
 }
 
 footer {
