@@ -214,6 +214,7 @@ a {
     justify-content: center;
     margin-top: -627.5px;
     margin-left: 1050px;
+    margin-bottom: 107px;
 }
 
 .Circle_Combiner {
@@ -223,46 +224,41 @@ a {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
     rotate: -90deg;
     margin-left: 10px;
+    position: fixed; /*PositionFix*/
+    z-index: 1; /*PositionFix*/
 }
 
 .Particle_TNG {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: px;
-    margin-bottom: px;
-    margin-right: px;
-    margin-top: px;
+    position: absolute; /*PositionFix*/
+    z-index: 2; /*PositionFix*/
 }
 
 .Particle_TNM {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: px;
-    margin-top: px;
-    margin-bottom: px;
-    margin-right: px;
+    margin-bottom: 293px;
+    margin-right: 250px;
+    position: absolute; /*PositionFix*/
+    z-index: 2; /*PositionFix*/
 }
 
 .Particle_TNS {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: px;
-    margin-top: px;
-    margin-right: px;
-    margin-bottom: px;
+    margin-top: 300px;
+    margin-right: 250px;
+    position: absolute; /*PositionFix*/
+    z-index: 2; /*PositionFix*/
 }
 
 .Particle_TNV {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: px;
-    margin-top: px;
-    margin-right: px;
-    margin-bottom: px;
+    margin-right: -406px;
+    position: absolute; /*PositionFix*/
+    z-index: 2; /*PositionFix*/
 }
 
 footer {
