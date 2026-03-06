@@ -1,4 +1,4 @@
-# TechNetGroup-H5_vX
+# TechNetGroup-H5
 Functioneel Ontwerp realisatie HTML CSS Informatica Hoofdstuk 5
 
 
