@@ -574,3 +574,115 @@ footer {
     margin-right: 700px;
     margin-bottom: 480px;
 }
+
+.Software_Information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.Software_Slogan_Text_Information {
+    font-size: 40px;
+    font-weight: 700;
+    height: 140px;
+    width: 513px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 193px;
+    margin-left: 20px;
+}
+
+.Software_Slogan_Text_Background_Information {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 152px;
+    width: 535px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 192px;
+    margin-left: 10px;
+}
+
+.Software_Slogan_Author_Information {
+    font-size: 40px;
+    font-weight: 400;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 345px;
+    margin-left: 30px;
+}
+
+.Software_Slogan_Author_Background_Information {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 43px;
+    width: 535px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 348px;
+    margin-left: 10px;
+}
+
+.Slogan_Divider_QuickInformationWidget_Software {
+    height: 1px;
+    background-color: #FFFFFF;
+    width: 535px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 400.5px;
+    margin-left: 10px;
+}
+
+.Software_QuickInformationWidget_p1_Information {
+    font-size: 30px;
+    font-weight: 400;
+    height: 396px;
+    width: 526px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 413px;
+    margin-left: 20px;
+}
+
+.Software_QuickInformationWidget_p2_Information {
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: underline;
+    width: 526px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 770px;
+    margin-left: 65px;
+}
+
+.Software_QuickInformationWidget_p2_Icon_Information {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 780px;
+    margin-left: 510px;
+}
+
+.Software_QuickInformationWidget_Background_Information {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 400px;
+    width: 535px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 412px;
+    margin-left: 10px;
+}
