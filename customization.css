@@ -686,3 +686,173 @@ footer {
     margin-top: 412px;
     margin-left: 10px;
 }
+
+.Software_Code_Makeup {
+    font-size: 27px;
+    font-weight: 700;
+    height: 768px;
+    width: 536px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 127px;
+    margin-left: 12px;
+    flex-direction: row;
+}
+
+.Software_Code_Modifiers_ReturnType_Makeup {
+    color: #CBA6F7;
+}
+
+.Software_Code_Identifier_Makeup {
+    color: #64A6F8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 127px;
+    margin-left: 244px;
+}
+
+.Software_Code_OpeningParantheses_p1_Makeup {
+    color: #323143;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 127px;
+    margin-left: 303px;
+}
+
+.Software_Code_ParameterType_Makeup {
+    color: #E7C494;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 127px;
+    margin-left: 313px;
+}
+
+.Software_Code_SquareBrackets_Makeup {
+    color: #323143;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 127px;
+    margin-left: 398px;
+}
+
+.Software_Code_ParameterIdentifier_Makeup {
+    color: #E6989D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 127px;
+    margin-left: 424px;
+}
+
+.Software_Code_ClosingParantheses_p1_Makeup {
+    color: #323143;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 127px;
+    margin-left: 488.5px;
+}
+
+.Software_Code_OpeningCurlyBrackets_Makeup {
+    color: #323143;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 127px;
+    margin-left: 504px;
+}
+
+.Software_Code_ClassName_Makeup {
+    color: #E7C494;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 156px;
+    margin-left: 50px;
+}
+
+.Software_Code_Dot_p1_Makeup {
+    color: #323143;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 156px;
+    margin-left: 151px;
+}
+
+.Software_Code_PrintStreamObject_Makeup {
+    color: #94E2D5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 156px;
+    margin-left: 157px;
+}
+
+.Software_Code_Dot_p2_Makeup {
+    color: #323143;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 156px;
+    margin-left: 205.5px;
+}
+
+.Software_Code_MethodName_Makeup {
+    color: #64A6F8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 156px;
+    margin-left: 211.5px;
+}
+
+.Software_Code_OpeningParantheses_p2_Makeup {
+    color: #323143;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 156px;
+    margin-left: 302px;
+}
+
+.Software_Code_OpeningString_Makeup {
+    color: #79D6A1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 156px;
+    margin-left: 312px;
+}
+
+.Software_Code_ClosingString_Makeup {
+    color: #79D6A1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 815px;
+    margin-left: 12px;
+}
+
+.Software_Code_ClosingParantheses_p2_StatementTerminator_Makeup {
+    color: #323143;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 815px;
+    margin-left: 24.5px;
+}
+
+.Software_Code_ClosingCurlyBrackets_Comment_Makeup {
+    color: #323143;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 840px;
+    margin-left: 12px;
+}
