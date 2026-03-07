@@ -19,15 +19,23 @@ nav {
     display: flex;
     align-items: center;
     height: 87px;
-    position: relative; /*PositionFix*/
+    position: fixed; /*PositionFix*/
     font-weight: 700;
     color: #FFFFFF;
     font-size: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 777;
 }
 
 a {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .logo_navigation {
@@ -97,12 +105,17 @@ a {
     margin-bottom: 23.5px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
     position: absolute; /*PositionFix*/
-    right: 0; /*PositionFix*/
+    right: 0;
 }
 
 .Navigation_Divider_Sub_Navigation {
     height: 1px;
     background-color: #FFFFFF;
+    position: fixed; /*PositionFix*/
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 87px;
 }
 
 .sub_navigation {
@@ -110,10 +123,14 @@ a {
     display: flex;
     align-items: center;
     height: 40px;
-    position: relative; /*PositionFix*/
+    position: fixed; /*PositionFix*/
     font-weight: 700;
     color: #FFFFFF;
     font-size: 24px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 87px;
 }
 
 .menu_sub_navigation {
@@ -155,14 +172,14 @@ a {
     align-items: center;
     position: absolute; /*PositionFix*/
     margin-right: -10px;
-    right: 0; /*PositionFix*/
+    right: 0;
 }
 
 .child_invoice_sub_navigation {
     display: flex;
     align-items: center;
     position: absolute; /*PositionFix*/
-    right: 0; /*PositionFix*/
+    right: 0;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 
@@ -173,7 +190,7 @@ a {
     color: #FFFFFF;
     height: 655px;
     width: 720px;
-    margin-top: 53px;
+    margin-top: 130px;
     margin-left: 40px;
     flex-direction: column;
 }
@@ -212,9 +229,12 @@ a {
     width: 600px;
     border-radius: 50%;
     justify-content: center;
-    margin-top: -627.5px;
+    margin-top: -600px;
     margin-left: 1050px;
     margin-bottom: 107px;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 
 .Circle_Combiner {
@@ -266,10 +286,13 @@ footer {
     display: flex;
     align-items: center;
     height: 50px;
-    position: relative; /*PositionFix*/
+    position: fixed; /*PositionFix*/
     font-weight: 700;
     color: #FFFFFF;
     margin-top: 80px;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 .copyright_logo_footer {
@@ -326,5 +349,228 @@ footer {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
     gap: 10px;
     position: absolute; /*PositionFix*/
-    right: 0; /*PositionFix*/
+    right: 0;
+}
+
+.Medical_Information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed; /*PositionFix*/
+    left: 0;
+    top: 0;
+}
+
+.Medical_Slogan_Background {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    height: 60px;
+    width: 875px;
+    margin-top: 160px;
+    margin-left: 40px;
+}
+
+.Medical_Slogan {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 3px;
+}
+
+.Slogan_Divider_Information {
+    height: 1px;
+    background-color: #FFFFFF;
+    width: 871px;
+    margin-left: 42px;
+    margin-top: -3px;
+}
+
+.Medical_Information_QuickInformationWidget {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 4px;
+}
+
+.Medical_Information_QuickInformationWidget_Background {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    height: 250px;
+    width: 580px;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+.Medical_Illustration_Background {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 480px;
+    height: 286px;
+    margin-bottom: 105px;
+    margin-left: 90px;
+    position: fixed; /*PositionFix*/
+    left: 0;
+    bottom: 0;
+}
+
+.Medical_Image_Illustration {
+    display: flex;
+    align-items: center;
+    margin-left: 98px;
+    margin-bottom: 113px;
+    position: fixed; /*PositionFix*/
+    left: 0;
+    bottom: 0;
+}
+
+.Collaboration {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: absolute; /*PositionFix*/
+    right: 0;
+    bottom: 0; /*!PositionFix*/
+}
+
+.Collaboration_Background {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 100px;
+    width: 503px;
+    margin-bottom: 60px;
+    margin-right: 10px;
+    position: fixed; /*PositionFix*/
+    right: 0;
+    bottom: 0;
+}
+
+.Collaboration_Text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 95px;
+    margin-right: 250px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: underline;
+    position: fixed; /*PositionFix*/
+    right: 0;
+    bottom: 0;
+}
+
+.Collaboration_Icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 64px;
+    margin-right: 15px;
+    position: fixed; /*PositionFix*/
+    right: 0;
+    bottom: 0;
+}
+
+.Solutions {
+    display: flex;
+    align-items: center;
+    flex-direction: unset;
+}
+
+.Solutions_TNM_Icon {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 500px;
+    margin-bottom: 380px;
+    z-index: 10;
+}
+
+.Solutions_TNM_Background {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 175px;
+    width: 175px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 488px;
+    margin-bottom: 368px;
+}
+
+.Solutions_Texts {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Solutions_Patient_Monitoring {
+    position: fixed;
+    width: 170px;
+    height: 75px;
+    right: 0;
+    bottom: 0;
+    margin-right: 491px;
+    margin-bottom: 570px;
+}
+
+.Solutions_Anaesthesia {
+    position: fixed;
+    width: 170px;
+    height: 75px;
+    right: 0;
+    bottom: 0;
+    margin-right: 270px;
+    margin-bottom: 480px;
+}
+
+.Solutions_Incubators {
+    position: fixed;
+    width: 170px;
+    height: 75px;
+    right: 0;
+    bottom: 0;
+    margin-right: 270px;
+    margin-bottom: 350px;
+}
+
+.Solutions_Respiratory_Monitoring {
+    position: fixed;
+    width: 170px;
+    height: 75px;
+    right: 0;
+    bottom: 0;
+    margin-right: 496px;
+    margin-bottom: 270px;
+}
+
+.Solutions_IC-Ventilation {
+    position: fixed;
+    width: 170px;
+    height: 75px;
+    right: 0;
+    bottom: 0;
+    margin-right: 700px;
+    margin-bottom: 350px;
+}
+
+.Solutions_Neonatal_Ventilation {
+    position: fixed;
+    width: 170px;
+    height: 75px;
+    right: 0;
+    bottom: 0;
+    margin-right: 700px;
+    margin-bottom: 480px;
 }
